@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1300px) and (min-width: 1199px) {}
+
+@media screen and (max-width:1199px) {
+    section.banner {
+        height: auto;
+    }
+
+    .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 300px;
+        background: #000;
+        transition: .4s cubic-bezier(0, 0, 0.13, 0.61);
+        transform: translateX(-100%)
+    }
+
+    .site-nav ul {
+        display: block;
+        margin-top: 40px
+    }
+
+    .site-nav ul li {
+        border-bottom: 1px solid #fff
+    }
+
+    .site-nav ul li a {
+        color: #fff
+    }
+
+    .menu-toggle {
+        display: block
+    }
+
+    .closed-menu {
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: inline-block
+    }
+
+    .toggle .site-nav {
+        transform: translateX(0)
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bnr-text h1 {
+        font-size: 26px;
+    }
+
+    .bnr-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    footer.footer {
+        text-align: center;
+    }
+
+    .social-icons-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Useful_link h2,
+    .get h2 {
+
+        text-align: center;
+    }
+
+    .Useful_link {
+        margin-top: 30px;
+    }
+    .get {
+        margin-top: 30px;
+    }
+    .policey ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .policey ul li a {
+       
+        padding: 0px;
+      
+    }
+    .luxury-card-inner .row .col-lg-4 {
+        margin-top: 30px;
+    }
+    .second {
+        margin-top:0px;
+    }
+}
