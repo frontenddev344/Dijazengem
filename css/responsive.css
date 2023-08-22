@@ -1,7 +1,9 @@
 @media only screen and (max-width: 1300px) and (min-width: 1199px) {}
 
 @media screen and (max-width:1199px) {
-    .luxury-hotels {
+
+    .luxury-hotels,
+    section.contact-us {
 
         margin-top: 73px;
     }
@@ -57,7 +59,7 @@
     .img_box img {
         height: 200px;
         object-fit: cover;
-    }   
+    }
 
     .bnr-text h1 {
         font-size: 26px;
@@ -67,10 +69,13 @@
         font-size: 16px;
     }
 
-    .luxury-hotels {
+    .luxury-hotels,
+    section.contact-us {
         height: auto;
         padding: 100px 0;
     }
+
+
 }
 
 @media screen and (max-width:767px) {
