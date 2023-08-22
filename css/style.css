@@ -124,7 +124,7 @@
     }
 
     .active-menu {
-        color: #be2edd;
+        color: #be2edd !important;
     }
 
     /* Header end*/
