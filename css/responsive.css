@@ -1,6 +1,11 @@
 @media only screen and (max-width: 1300px) and (min-width: 1199px) {}
 
 @media screen and (max-width:1199px) {
+    .luxury-hotels {
+
+        margin-top: 73px;
+    }
+
     section.banner {
         height: auto;
     }
@@ -49,12 +54,22 @@
 }
 
 @media screen and (max-width:991px) {
+    .img_box img {
+        height: 200px;
+        object-fit: cover;
+    }   
+
     .bnr-text h1 {
         font-size: 26px;
     }
 
     .bnr-text p {
         font-size: 16px;
+    }
+
+    .luxury-hotels {
+        height: auto;
+        padding: 100px 0;
     }
 }
 
@@ -77,23 +92,28 @@
     .Useful_link {
         margin-top: 30px;
     }
+
     .get {
         margin-top: 30px;
     }
+
     .policey ul {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
+
     .policey ul li a {
-       
+
         padding: 0px;
-      
+
     }
+
     .luxury-card-inner .row .col-lg-4 {
         margin-top: 30px;
     }
+
     .second {
-        margin-top:0px;
+        margin-top: 0px;
     }
 }
