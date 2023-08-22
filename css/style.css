@@ -122,7 +122,8 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
-    .active-menu{
+
+    .active-menu {
         color: #be2edd;
     }
 
@@ -728,9 +729,10 @@
         justify-content: center;
     }
 
-    section.luxury-hotels.best-hotels{
+    section.luxury-hotels.best-hotels {
         background: url(../images/room_classic_header.jpg);
     }
-    section.luxury-hotels.best-hotels{
+
+    section.luxury-hotels.best-hotels {
         background: url(../images/room_classic_header.jpg);
     }
