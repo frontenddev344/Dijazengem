@@ -122,7 +122,9 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
-
+    .active-menu{
+        color: #be2edd;
+    }
 
     /* Header end*/
     /* Banner css */
@@ -131,7 +133,7 @@
         background: url(../images/home-bnr.jpg) no-repeat;
         background-position: center;
         background-size: cover;
-        height: 900px;
+        height: 800px;
         display: flex;
         align-items: center;
         object-fit: cover;
@@ -714,13 +716,18 @@
         height: 277px;
         object-fit: cover;
     }
+
     /* luxury-hotels page */
     /* section.luxury-hotels.resort */
-    section.luxury-hotels.resort{
+    section.luxury-hotels.resort {
         background: url(../images/bnr-2.jpg);
     }
 
 
     body#unique .second .row {
         justify-content: center;
+    }
+
+    section.luxury-hotels.best-hotels{
+        background: url(../images/room_classic_header.jpg);
     }
