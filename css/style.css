@@ -86,7 +86,7 @@
     }
 
     .site-nav li a:hover {
-        color: #be2edd;
+        color: rgb(143 199 0 / 94%);
     }
 
     .menu-toggle {
@@ -124,7 +124,7 @@
     }
 
     .active-menu {
-        color: #be2edd !important;
+        color: rgb(143 199 0 / 94%) !important;
     }
 
     /* Header end*/
@@ -171,7 +171,7 @@
     }
 
     .btn-bg-two {
-        background-color: #C890FF;
+        background-color: rgb(143 199 0 / 94%);
     }
 
     .default-btn {
@@ -674,7 +674,7 @@
         height: 100%;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         background: #fff;
-        padding: 16px 16px 70px;
+        padding: 16px 16px 16px;
         position: relative;
         z-index: 99;
     }
@@ -699,10 +699,6 @@
         margin-top: 50px;
     }
 
-    .banner-btn.main {
-        position: absolute;
-        bottom: 10px;
-    }
 
     .img_box img {
         height: 277px;
@@ -732,7 +728,8 @@
     section.dijazengem-dis {
         padding: 50px 0;
     }
-    section.dijazengem-dis .durch-inner p{
+
+    section.dijazengem-dis .durch-inner p {
         font-family: 'Playfair Display', serif;
         color: #677F8B;
         font-size: 18px;
@@ -741,4 +738,23 @@
         box-shadow: 0 0 7px rgba(143, 255, 69, 0.26);
         padding: 20px;
         text-align: center;
+    }
+
+
+    /*  */
+
+    .luxury-wrapper {
+        box-shadow: 0 0 7px rgba(143, 255, 69, 0.26);
+    }
+
+    .luxury-wrapper .row {
+        align-items: center;
+    }
+
+    .luxury-wrapper .text_hotel {
+        padding: 0 0 0 50px;
+    }
+
+    .luxury-wrapper.one {
+        margin-top: 40px;
     }
