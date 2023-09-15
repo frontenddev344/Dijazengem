@@ -56,6 +56,16 @@
 }
 
 @media screen and (max-width:991px) {
+
+    .banner-btn.main {
+        text-align: center;
+        padding: 0 0 40px;
+    }
+
+    .text_hotel {
+        padding: 0 30px;
+    }
+
     .img_box img {
         height: 200px;
         object-fit: cover;
@@ -75,7 +85,10 @@
         padding: 100px 0;
     }
 
-
+    #luxury-card .banner-btn.main {
+        text-align: left;
+        padding: 0 0 40px;
+    }
 }
 
 @media screen and (max-width:767px) {
