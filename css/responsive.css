@@ -135,4 +135,8 @@
     .second {
         margin-top: 0px;
     }
+
+    section.luxury-hotels.resort {
+        background-position: 100% 63%;
+    }
 }

@@ -706,6 +706,7 @@
         font-size: 24px;
         text-shadow: 3px -4px 8px rgba(255, 200, 39, 0.3);
         margin-top: 20px;
+        text-transform: capitalize;
     }
 
     .text_hotel p {
