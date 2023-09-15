@@ -43,10 +43,6 @@
         max-width: 1300px;
     }
 
-    ::selection {
-        background-color: rgb(143 199 0 / 94%);
-        color: #FFFFFF;
-    }
 
     ::-webkit-scrollbar {
         width: 4px;
