@@ -760,3 +760,33 @@
     .luxury-wrapper.one {
         margin-top: 40px;
     }
+
+    #resort .text_box {
+        box-shadow: none;
+        background: transparent;
+    }
+
+    #resort .text_hotel {
+        width: 100%;
+        max-width: 536px;
+        margin: 0 auto;
+    }
+
+    #resort .luxury-card-inner .row {
+        align-items: center;
+
+    }
+
+    #resort .luxury-card-inner {
+        background-color: #8fc60126;
+    }
+
+    #resort .img_box {
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+
+    #resort .img_box:hover img {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    }
