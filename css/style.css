@@ -42,29 +42,31 @@
     .container {
         max-width: 1300px;
     }
+
     ::selection {
         background-color: rgb(143 199 0 / 94%);
         color: #FFFFFF;
     }
-    
+
     ::-webkit-scrollbar {
         width: 4px;
     }
-    
+
     ::-webkit-scrollbar-track {
         background: #ECFAFB;
     }
-    
-    
+
+
     ::-webkit-scrollbar-thumb {
         background: rgb(143 199 0 / 94%);
         border-radius: 2px;
     }
-    
+
     ::-webkit-scrollbar-thumb:hover {
         -webkit-filter: brightness(120%);
         filter: brightness(120%);
     }
+
     /*global end*/
 
     /*header start*/
