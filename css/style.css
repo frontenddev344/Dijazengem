@@ -779,6 +779,7 @@
 
     #resort .luxury-card-inner {
         background-color: #8fc60126;
+        transition: all 0.3s;
     }
 
     #resort .img_box {
@@ -789,4 +790,16 @@
     #resort .img_box:hover img {
         transform: scale(1.2);
         transition: all 0.3s;
+    }
+
+    #resort .luxury-card-inner.one {
+        margin-top: 30px;
+    }
+
+    #resort .default-btn {
+        padding: 12px 30px;
+    }
+
+    #resort .luxury-card-inner:hover {
+        box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31);
     }
