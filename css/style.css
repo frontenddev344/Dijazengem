@@ -657,7 +657,7 @@
 
     /* luxury-hotels page */
     .luxury-hotels {
-        background: url(../images/luxury-hotels-bner.jpg)no-repeat;
+        background: url(../images/Luxury--hotels.jpg)no-repeat;
         height: 400px;
         background-size: cover;
         background-position: center;
@@ -734,8 +734,8 @@
     /* luxury-hotels page */
     /* section.luxury-hotels.resort */
     section.luxury-hotels.resort {
-        background: url(../images/bnr-2.jpg);
-        background-position: center;
+        background: url(../images/Resort-banner.jpg);
+        background-position: bottom;
     }
 
 
@@ -744,7 +744,7 @@
     }
 
     section.luxury-hotels.best-hotels {
-        background: url(../images/room_classic_header.jpg);
+        background: url(../images/bnr-2.jpg);
         background-position: center;
     }
 
