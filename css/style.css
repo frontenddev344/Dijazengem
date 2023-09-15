@@ -820,32 +820,77 @@
 
     }
 
-     body#unique .luxury-card-inner{
+    body#unique .luxury-card-inner {
         background-color: #8fc60126;
         transition: all 0.3s;
     }
 
-     body#unique  .img_box {
+    body#unique .img_box {
         overflow: hidden;
         transition: all 0.3s;
     }
 
-     body#unique  .img_box:hover img {
+    body#unique .img_box:hover img {
         transform: scale(1.2);
         transition: all 0.3s;
     }
 
-     body#unique  .luxury-card-inner.one {
+    body#unique .luxury-card-inner.one {
         margin-top: 30px;
     }
 
-     body#unique  .default-btn {
+    body#unique .default-btn {
         padding: 12px 30px;
     }
+
     body#unique .luxury-card-inner:hover {
         box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31);
     }
+
     #luxury-card .text_hotel p {
         width: 100%;
         max-width: 699px;
+    }
+
+    body#best .text_box {
+        box-shadow: none;
+        background: transparent;
+    }
+
+    body#best .text_hotel {
+        width: 100%;
+        max-width: 536px;
+        margin: 0 auto;
+    }
+
+    body#best .luxury-card-inner .row {
+        align-items: center;
+
+    }
+
+    body#best .luxury-card-inner {
+        background-color: #8fc60126;
+        transition: all 0.3s;
+    }
+
+    body#best .img_box {
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+
+    body#best .img_box:hover img {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    }
+
+    body#best .luxury-card-inner.one {
+        margin-top: 30px;
+    }
+
+    body#best .default-btn {
+        padding: 12px 30px;
+    }
+
+    body#best .luxury-card-inner:hover {
+        box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31);
     }
