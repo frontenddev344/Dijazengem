@@ -924,11 +924,13 @@
     /*  26-09-23*/
 
     .text_hotel h6{
-       font-size: 18px;
-       font-weight: 600 ;
+       font-size: 20px;
+       font-weight: 700 ;
+       margin: 12px 0;
     }
     .text_hotel h6 span{
-        font-weight: 400;
+        font-weight: 500;
+        font-size: 18px;
     }
 
     section.luxury-hotels.casino-resorts{
