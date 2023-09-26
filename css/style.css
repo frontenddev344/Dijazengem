@@ -930,3 +930,9 @@
     .text_hotel h6 span{
         font-weight: 400;
     }
+
+    section.luxury-hotels.casino-resorts{
+        background: url(../images/casino.jpg)no-repeat;
+        background-position: center;
+        background-size: cover;
+    }

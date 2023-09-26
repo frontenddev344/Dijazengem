@@ -1,4 +1,10 @@
-@media only screen and (max-width: 1300px) and (min-width: 1199px) {}
+@media only screen and (max-width: 1300px){
+    .site-nav li a {
+
+        padding: 0.8rem 7px;
+
+    }
+}
 
 @media screen and (max-width:1199px) {
 
@@ -12,6 +18,9 @@
         height: 500px;
 
     }
+    body#unique .default-btn {
+        padding: 12px 25px;
+    }   
 
     .site-nav {
         position: fixed;
