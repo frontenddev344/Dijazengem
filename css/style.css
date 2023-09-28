@@ -256,103 +256,14 @@
     /*  */
     .card-1 {
         padding: 29px 0;
-    }
-
-    .card-1 .row {
-        justify-content: center;
-    }
-
-    .card-1 h2 {
-        text-align: center;
-        margin: 40px 0;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 24px;
-    }
-
-    .wrapper {
-
-        background-color: #fff;
-        margin: 1.5%;
-        padding: 2em 1em;
-        box-sizing: border-box;
-        box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
         text-align: center;
     }
 
-    .wrapper>h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        letter-spacing: .15em;
-        color: #333;
-        margin-bottom: 20px;
+    .card-1 h2{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
     }
-
-    .details {
-        width: 95%;
-        margin: 0 auto 2em;
-        padding-top: 10.5em;
-        padding-bottom: 1em;
-        background-color: #FEF4F2;
-        color: #333;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
-        transition: all ease-in 0.15s;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .wrapper:hover .details {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
-        transform: translate(0px, -2px) scale(1.01);
-    }
-
-    .details p {
-        font-size: 16px;
-        font-family: 'Open Sans', sans-serif;
-        margin: 0;
-        padding: 20px 0;
-    }
-
-    .image {
-        position: relative;
-        z-index: 2;
-        width: 85%;
-        height: 250px;
-        margin: 0 auto -10em;
-        background-size: cover;
-        background-position: center;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
-        transition: all ease-in .15s;
-        object-fit: contain;
-    }
-
-    .wrapper:hover .image {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        transform: translate(0px, -3px) scale(1.02);
-    }
-
-
-    .i1 {
-        background: url(../images/Luxury-hotels.jpeg);
-    }
-
-    .i2 {
-        background: url(../images/Resort-hotels.jpeg);
-    }
-
-    .i3 {
-        background: url(../images/Best-deal-Hotels.jpg);
-        background-position: center;
-        object-fit: contain;
-    }
-
-    .i4 {
-        background: url(../images/Unique-hotels.jpg);
-        background-position: center;
-        object-fit: contain;
-    }
-
 
     /* footr */
     .footer_logo img {
@@ -962,13 +873,13 @@
         content: "\f104";
         font-size: 20px;
         line-height: 40px;
-        color: #BAAC8F;
+        color: rgb(143 199 0 / 94%) !important;
         text-align: center;
         font-family: fontAwesome;
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        border: 1px solid #BAAC8F;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
         background: #fff;
         position: absolute;
         top: 80px;
@@ -984,7 +895,7 @@
 
     section.hotel-card .hotel-card-inner .card-heading h2 {
         padding: 70px 80px 0 0;
-        border-bottom: 1px dashed #BAAC8F;
+        border-bottom: 1px dashed rgb(143 199 0 / 94%) !important;
         display: inline-block;
         font-size: 26px;
         font-weight: 600;
@@ -1010,27 +921,27 @@
         color: #fff;
         letter-spacing: .5px;
         text-transform: uppercase;
-        background: #cb8670;
+        background: rgb(143 199 0 / 94%) !important;
         display: inline-block;
         position: relative;
         cursor: pointer;
         white-space: nowrap;
         box-sizing: border-box;
         transition: .3s ease;
-        border: 1px solid #cb8670;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
     }
 
     section.hotel-card .hotel-card-inner .arrow-icon:before {
         content: "\f104";
         font-size: 20px;
         line-height: 40px;
-        color: #BAAC8F;
+        color: rgb(143 199 0 / 94%) !important;
         text-align: center;
         font-family: fontAwesome;
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        border: 1px solid #BAAC8F;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
         background: #fff;
         position: absolute;
         top: 80px;
@@ -1047,12 +958,77 @@
         padding: 60px 0 0 80px;
         text-align: left;
     }
+
     section.hotel-card .hotel-card-inner .second-line {
         position: relative;
     }
+
     section.hotel-card {
-        padding: 0;
+        padding: 0 0 50px;
     }
+
     section.hotel-card .first .hotel-img {
         padding: 0 0 0 80px;
+    }
+
+    section.hotel-card .hotel-card-inner .second-line:before {
+        content: "\f105";
+        font-size: 20px;
+        line-height: 40px;
+        color: rgb(143 199 0 / 94%) !important;
+        text-align: center;
+        font-family: fontAwesome;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
+        background: #fff;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 100%;
+    }
+
+    section.hotel-card .hotel-card-inner .second-arrow {
+        position: relative;
+    }
+
+    section.hotel-card .hotel-card-inner .second-arrow::before {
+        content: "\f104";
+        font-size: 20px;
+        line-height: 40px;
+        color: rgb(143 199 0 / 94%) !important;
+        text-align: center;
+        font-family: fontAwesome;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
+        background: #fff;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 100%;
+    }
+
+    .arrow-icon .second-arrow .hotel-img.one {
+        padding: 70px 0 0 80px;
+        text-align: right;
+    }
+
+    section.hotel-card .hotel-card-inner .card-heading .btn-read a:hover {
+        background-color: transparent !important;
+        color: rgb(143 199 0 / 94%) !important;
+        border: 1px solid rgb(143 199 0 / 94%) !important;
+    }
+
+    .hotel-img.one img {
+        height: 400px;
+        object-fit: cover;
+    }
+    section.hotel-card .hotel-card-inner .second-line .card-heading.one h2 {
+        margin: 0 0 30px -80px;
+        padding: 0 10px 5px 80px;
     }
