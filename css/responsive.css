@@ -67,6 +67,9 @@
 }
 
 @media screen and (max-width:991px) {
+    .luxury-wrapper.one.wrapp .row {
+        flex-direction: column-reverse;
+    }
 
     .banner-btn.main {
         text-align: center;
@@ -78,7 +81,7 @@
     }
 
     .img_box img {
-        height: 200px;
+        height: 300px;
         object-fit: cover;
     }
 
@@ -152,15 +155,18 @@
     .second-arrow .row {
         flex-direction: column-reverse;
     }
+
     section.hotel-card .hotel-card-inner .second-line .card-heading.one h2 {
         margin: 0 0 30px 0px;
         padding: 0;
     }
+
     section.hotel-card .hotel-card-inner .card-heading h2 {
         padding: 30px 80px 0 0;
         margin-bottom: 30px;
     }
-    section.hotel-card .hotel-card-inner .card-heading p{
+
+    section.hotel-card .hotel-card-inner .card-heading p {
         padding-right: 0;
     }
 }
@@ -169,10 +175,12 @@
     footer.footer {
         text-align: center;
     }
+
     section.hotel-card .hotel-card-inner .card-heading h2 {
         padding: 30px 0px 0 0;
 
     }
+
     .social-icons-btn {
         display: flex;
         justify-content: center;
