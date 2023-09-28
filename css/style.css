@@ -921,21 +921,138 @@
     body#best .luxury-card-inner:hover {
         box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31);
     }
+
     /*  26-09-23*/
 
-    .text_hotel h6{
-       font-size: 20px;
-       font-weight: 700 ;
-       margin: 12px 0;
+    .text_hotel h6 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 12px 0;
     }
-    .text_hotel h6 span{
+
+    .text_hotel h6 span {
         font-weight: 500;
         font-size: 18px;
     }
 
-    section.luxury-hotels.casino-resorts{
+    section.luxury-hotels.casino-resorts {
         background: url(../images/casino.jpg)no-repeat;
         background-position: center;
         background-size: cover;
 
+    }
+
+
+
+    section.hotel-card .hotel-card-inner {
+        position: relative;
+    }
+
+    section.hotel-card .hotel-card-inner::before {
+        content: "";
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background: #EEE;
+    }
+
+    section.hotel-card .hotel-card-inner .arrow-icon:before {
+        content: "\f104";
+        font-size: 20px;
+        line-height: 40px;
+        color: #BAAC8F;
+        text-align: center;
+        font-family: fontAwesome;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        border: 1px solid #BAAC8F;
+        background: #fff;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 100%;
+    }
+
+    section.hotel-card .hotel-card-inner .card-heading {
+        text-align: right;
+        box-sizing: border-box;
+    }
+
+    section.hotel-card .hotel-card-inner .card-heading h2 {
+        padding: 70px 80px 0 0;
+        border-bottom: 1px dashed #BAAC8F;
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    section.hotel-card .hotel-card-inner .card-heading p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        color: #888;
+        letter-spacing: .2px;
+        font-family: "Noto Sans", sans-serif;
+        padding-right: 80px;
+    }
+
+    .btn-read {
+        padding-right: 80px;
+    }
+
+    section.hotel-card .hotel-card-inner .card-heading .btn-read a {
+        padding: 0 30px;
+        font: 14px/44px "Work Sans";
+        color: #fff;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        background: #cb8670;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        white-space: nowrap;
+        box-sizing: border-box;
+        transition: .3s ease;
+        border: 1px solid #cb8670;
+    }
+
+    section.hotel-card .hotel-card-inner .arrow-icon:before {
+        content: "\f104";
+        font-size: 20px;
+        line-height: 40px;
+        color: #BAAC8F;
+        text-align: center;
+        font-family: fontAwesome;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        border: 1px solid #BAAC8F;
+        background: #fff;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        box-sizing: border-box;
+        border-radius: 100%;
+    }
+
+    section.hotel-card .hotel-card-inner .second-line .hotel-img.one {
+        padding: 60px 80px 0 0;
+    }
+
+    section.hotel-card .hotel-card-inner .second-line .card-heading.one {
+        padding: 60px 0 0 80px;
+        text-align: left;
+    }
+    section.hotel-card .hotel-card-inner .second-line {
+        position: relative;
+    }
+    section.hotel-card {
+        padding: 0;
+    }
+    section.hotel-card .first .hotel-img {
+        padding: 0 0 0 80px;
     }
