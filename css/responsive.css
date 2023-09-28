@@ -160,13 +160,19 @@
         padding: 30px 80px 0 0;
         margin-bottom: 30px;
     }
+    section.hotel-card .hotel-card-inner .card-heading p{
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width:767px) {
     footer.footer {
         text-align: center;
     }
+    section.hotel-card .hotel-card-inner .card-heading h2 {
+        padding: 30px 0px 0 0;
 
+    }
     .social-icons-btn {
         display: flex;
         justify-content: center;
