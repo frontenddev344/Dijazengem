@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <title>Contact us
     </title>
 </head>
@@ -29,7 +33,7 @@
                     <li><a href="unique-hotels.html">Egyedi szállodák</a></li>
                     <li><a href="casino-resorts.html" class="">Kaszinó üdülőhelyek</a></li>
                     <li><a href="contact-us.html" class="active-menu">Lépjen kapcsolatba velünk</a></li>
-                   
+
                 </ul>
                 <div class="closed-menu">
                     <span>×</span>
@@ -84,6 +88,88 @@
         </div>
     </section>
     <!-- contact-description -->
+    <div class="silder-review">
+        <div class="container">
+            <h3>Reviews</h3>
+            <div class="owl-carousel">
+                <div>
+                    <div class="maine-cour">
+                        <div class="img-cur">
+                            <img src="images/woman-3990680_960_720.jpg" alt="">
+                        </div>
+                        <div class="anto">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                            </ul>
+                            <h6>Matka-arvostelut ja -arviot</h6>
+                            <p>Elämän loma. Pidin tästä vertailusivustosta. Se antoi kaikki tiedot, joita tarvitsin
+                                matkustaessani Unkarissa. Suosittelen ehdottomasti tätä sivustoa ystävilleni. </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="maine-cour">
+                        <div class="img-cur">
+                            <img src="images/beard-1845166_960_720.jpg" alt="">
+                        </div>
+                        <div class="anto">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                            </ul>
+
+                            <h6>Marta Laajat hakuvaihtoehdot</h6>
+                            <p> Dijazengam.com todella erottuu joukosta laajojen hakuvaihtoehtojensa ansiosta.
+                                Löydät kaiken tarvitsemasi yhdestä paikasta. Mahdollisuuden mukauttaa hakuehtojasi voit
+                                räätälöidä matkasuunnitelmasi täsmällisten mieltymystesi mukaan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="maine-cour">
+                        <div class="img-cur">
+                            <img src="images/one.jpeg" alt="">
+                        </div>
+                        <div class="anto">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i>
+                                </li>
+                            </ul>
+                            <h6>Käyttäjäystävällinen</h6>
+                            <p>Helposti seurattava vertailusivusto, jossa on vaihtoehtoja kaikille budjeteille. Olen
+                                iloinen, että käytin tätä sivustoa matkojeni suunnittelussa. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- footer -->
     <footer class="footer">
         <div class="container">
@@ -95,7 +181,7 @@
                             <a class="icons twitter" href="#">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
-                           
+
                             <a class="icons instagram" href="#">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
@@ -126,7 +212,7 @@
                         </h2>
                         <div class="location">
                             <ul>
-                              
+
                                 <li><a href="mailto:nfo@dijazengem.com"><i class="fa fa-envelope-o"
                                             aria-hidden="true"></i>info@dijazengem.com </a></li>
                             </ul>
@@ -178,6 +264,30 @@
             });
         });
 
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false,
+                    loop: true
+                }
+            }
+        })
     </script>
 </body>
 
